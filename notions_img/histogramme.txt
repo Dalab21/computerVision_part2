@@ -1,0 +1,28 @@
+
+1.Histogramme:
+Un histogramme est une représentation graphique de la distribution des intensités de pixels dans une image. L'axe des x représente les valeurs d'intensité des pixels (de 0 à 255 pour les images en niveaux de gris), tandis que l'axe des y représente le nombre de pixels pour chaque valeur d'intensité.
+
+Utilité :
+Analyse de l'image : Ils permettent de comprendre la distribution des tons dans une image. 
+Par exple, une image sombre aura un histogramme centré vers les valeurs basses (à gauche), tandis qu'une image lumineuse aura un histogramme centré vers les valeurs élevées (à droite).
+
+Amélioration de l'image : Ils sont utilisés pour appliquer diverses techniques de traitement d'images, comme l'égalisation de l'histogramme, pour améliorer la qualité visuelle des images.
+
+2.Égalisation de l'Histogramme:
+Est une technique de traitement d'image qui améliore le contraste de l'image en redistribuant les valeurs de niveaux de gris de manière à occuper toute la plage possible d'intensité.
+Utilité :
+Amélioration du contraste : Cette technique est particulièrement utile pour améliorer le contraste des images qui sont globalement trop sombres ou trop claires.
+
+Visualisation des détails : Elle permet de rendre plus visibles les détails dans les régions d'image à faible contraste.
+
+Prétraitement : Utilisée comme étape de prétraitement pour d'autres techniques de vision par ordinateur et d'analyse
+d'images, elle peut rendre les caractéristiques des objets plus distinctes.
+
+a.CLAHE (Contrast Limited Adaptive Histogram Equalization):
+CLAHE est une version améliorée de l'égalisation de l'histogramme qui applique l'égalisation de manière adaptative sur des régions locales de l'image plutôt que globalement. Cela permet de limiter l'amplification du bruit et de contrôler le contraste.
+
+Utilité :
+Contraste limité : CLAHE empêche la surexposition et la sous-exposition locales en limitant le contraste de chaque région locale.
+
+Détails locaux : Il améliore les détails locaux sans affecter négativement les autres parties de l'image.
+Applications médicales : Souvent utilisé dans le traitement des images médicales (comme les radiographies et les IRM) où il est crucial de révéler les détails sans amplifier le bruit.

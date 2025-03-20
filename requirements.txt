@@ -1,0 +1,10 @@
+opencv-python
+
+#removeBg
+
+fastapi
+uvicorn
+python-multipart
+rembg
+onnxruntime
+pillow
